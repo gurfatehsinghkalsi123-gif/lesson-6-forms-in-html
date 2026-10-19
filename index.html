@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Doctors Appointment</title>
+</head>
+
+<body>
+    <hr>
+    <h1>Doctors Appointment</h1>
+    <p> Enter Your Basic Details To Book The Appointment</p>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>
+                Enter Your Name:</label><br>
+            <input type="text" name="name" placeholder="Enter Your Name" required><br><br>
+            <label>
+                Enter Your Patient Id:</label><br>
+            <input type="password" name="patient_id" placeholder="Enter Your Patient Id" required><br><br>
+            <label>
+                Enter Your Birthdate:</label><br>
+            <input type="date" name="birthdate" placeholder="Enter Your Birthdate" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Visit Details</legend>
+            <label>
+                Choose Your Doctor:</label><br>
+            <select name="doctor" placeholder="Choose Your Doctor" required><br><br>
+                <option value="">Select a Doctor</option>
+                <option value="dr_smith">Dr. Smith</option>
+                <option value="dr_johnson">Dr. Johnson</option>
+                <option value="drWilliams">Dr. Williams</option>
+                <option value="Lallu Chand">Dr. Lallu Chand</option>
+            </select><br><br>
+            <label>
+                Enter Your Appointment Reason</label><br>
+            <input type="radio" name="reason" value="fever">Fever<br>
+            <input type="radio" name="reason" value="cancer"> Cancer<br>
+            <input type="radio" name="reason" value="heart-disease"> Heart Disease<br>
+            <input type="radio" name="reason" value="stroke"> Stroke<br>
+            <input type="radio" name="reason" value="rabies"> Rabies<br>
+            <input type="radio" name="reason" value="ebola"> Ebola Virus Disease<br>
+            <input type="radio" name="reason" value="malaria"> Malaria<br>
+            <input type="radio" name="reason" value="tuberculosis"> Tuberculosis (TB)<br>
+            <input type="radio" name="reason" value="cholera"> Cholera<br>
+            <input type="radio" name="reason" value="meningitis"> Meningitis<br>
+            <input type="radio" name="reason" value="hiv-aids"> HIV/AIDS<br><br>
+            <label>Choose Your Prefered Day</label><br>
+            <input type="checkbox" name="preferred_day" value="sunday"> Sunday<br>
+            <input type="checkbox" name="preferred_day" value="monday"> Monday<br>
+            <input type="checkbox" name="preferred_day" value="tuesday"> Tuesday<br>
+            <input type="checkbox" name="preferred_day" value="wednesday"> Wednesday<br>
+            <input type="checkbox" name="preferred_day" value="thursday"> Thursday<br>
+            <input type="checkbox" name="preferred_day" value="friday"> Friday<br>
+            <input type="checkbox" name="preferred_day" value="saturday"> Saturday<br><br>
+
+        </fieldset>
+        <input type="submit" value="Book Appointment">
+    </form>
+</body>
+
+</html>
