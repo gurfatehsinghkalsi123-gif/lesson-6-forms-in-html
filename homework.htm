@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Donation Form</title>
+</head>
+<body>
+
+    <h1>Book Donation Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Donor Details</legend>
+
+            <label>Your Name:</label>
+            <input type="text" name="name">
+            <br><br>
+
+            <label>Donor ID:</label>
+            <input type="password" name="donorid">
+            <br><br>
+
+            <label>Donation Date:</label>
+            <input type="date" name="date">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Book Details</legend>
+
+            <label>Book Category:</label>
+            <select name="category">
+                <option>Fiction</option>
+                <option>Science</option>
+                <option>History</option>
+                <option>Education</option>
+            </select>
+
+            <br><br>
+
+            <label>Book Condition:</label>
+            <br>
+
+            <input type="radio" name="condition" value="Like New">
+            Like New
+            <br>
+
+            <input type="radio" name="condition" value="Good">
+            Good
+            <br>
+
+            <input type="radio" name="condition" value="Used">
+            Used
+
+            <br><br>
+
+            <label>Book Title or Notes:</label>
+            <br>
+
+            <textarea name="notes" rows="4" cols="30"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Drop-Off Day</legend>
+
+            <input type="checkbox" name="day" value="Monday">
+            Monday
+            <br>
+
+            <input type="checkbox" name="day" value="Wednesday">
+            Wednesday
+            <br>
+
+            <input type="checkbox" name="day" value="Friday">
+            Friday
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Donate My Book">
+
+    </form>
+
+</body>
+</html>
